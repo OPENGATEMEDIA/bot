@@ -1,0 +1,20 @@
+{
+  "name": "ad-clicker-bot",
+  "version": "2.0.0",
+  "description": "Bot scraping & klik iklan dengan rotasi proxy",
+  "main": "clicker.js",
+  "scripts": {
+    "start": "node clicker.js",
+    "scrape": "node index.js",
+    "dev": "node --watch clicker.js",
+    "fetch-proxies": "node fetch-proxies.js",
+    "fetch-test": "node fetch-proxies.js --test"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "https-proxy-agent": "^7.0.2",
+    "puppeteer": "^21.0.0",
+    "socks-proxy-agent": "^8.0.2"
+  }
+}
